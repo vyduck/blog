@@ -13,9 +13,18 @@ body > section {
 
 nav {
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav > img {
+    margin: 0rem 1rem;
 }
 
 nav > a:any-link {
+    align-content: center;
+    height: 32px;
     padding-right: 1.5rem;
     color: black;
     text-decoration: underline;
@@ -39,4 +48,10 @@ header {
 a:any-link {
     text-decoration: underline;
     color: rgb(46, 127, 219);
+}
+
+footer {
+    padding-top: 0.5rem;
+    border-top: 1px solid #000;
+    font-size: 80%;
 }
