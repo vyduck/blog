@@ -31,6 +31,10 @@
     color: gray;
 }
 
+.blog-card:hover .blog-card-title {
+    text-decoration: underline;
+}
+
 /* Blog styles */
 #back:any-link {
     color: black;
